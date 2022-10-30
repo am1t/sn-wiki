@@ -1,32 +1,18 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8cfa8785-8df8-4aad-ad35-8f1c790b8baf/deploy-status)](https://app.netlify.com/sites/digital-garden-jekyll-template/deploys)
+# Hi, I am Amit! 👋🏽
 
-# Digital garden Jekyll template
+## Welcome to my second brain 🌱
 
-Use this template repository to get started with your own digital garden.
+You've stumbled onto the repository for my wiki. There are other trending names for such a space, [[digital garden]] 🌱 or second brain 🧠. So, call it what you like. I use this site for capturing my unformed throughts, scribbles if you like, and hence the title.
 
-**I wrote a tutorial explaining how to set it up: [Setting up your own digital garden with Jekyll](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll)**
+<p style="padding: 20px; background: #f5f7ff; border-radius: 4px;">
+  Take a look at <span style="font-weight: bold">[my first note]()</span> to see where I started with this space.
+</p>
 
-Preview the template here: https://digital-garden-jekyll-template.netlify.app/
+This space is where I plan to share my notes across all my projects or my thoughts on what I read or watch. Most of what I write here would hardly have any structured, these are thoughts as they arrive. So expect some broken links for things I am yet to explore or sentences that make no sense to you. More than you, the words on this site is for my eyes.
 
-- Based on Jekyll, a static website generator
-- Supports Roam-style double bracket link syntax to other notes
-- Creates backlinks to other notes automatically
-- Features link previews on hover
-- Includes graph visualization of the notes and their links
-- Features a simple and responsive design
-- Supports Markdown or HTML notes
+However, you are free to poke around. Get a peek on what am working on or busy with. What's the best way to navigate this space you say? Well, that's to come. But you can start with [[my first note]] or my notes on this [[digital garden setup]]. From there, you can click on anything that you find interesting.
 
-<img width="1522" alt="Screen Shot 2020-05-19 at 23 05 46" src="https://user-images.githubusercontent.com/8457808/82400515-7d026d80-9a25-11ea-83f1-3b9cb8347e07.png">
-
-## A note about GitHub Pages
-
-GitHub Pages only partially supports this template: to power the interactive notes graph, this template uses a custom Jekyll plugin to generate the graph data in [`notes_graph.json`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/7ac331a4113bac77c993856562acc2bfbde9f2f7/_plugins/bidirectional_links_generator.rb#L102), and [GitHub Pages doesn't support custom Jekyll plugins](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins).
-
-If you want to use the graph with GitHub Pages, you may try building your garden locally using Jekyll then pushing the result to GitHub Pages.
-
-Alternatively, you may deploy your garden to Netlify and it'll work out of the box. [I wrote a guide explaining how to set this up](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
-
-If you don't care about the graph, you can simply remove it from this layout, [as explained here](https://github.com/maximevaillancourt/digital-garden-jekyll-template/discussions/132#discussioncomment-3625772).
+My idea is to move, have fun, and learn new something every day! ✌🏽
 
 ## License
 

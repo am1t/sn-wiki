@@ -6,6 +6,8 @@ title: First seed in my digital garden
 
 This is my first note. I have set it up in my [`notes/`](https://github.com/am1t/sn-wiki/tree/master/_notes) directory. This note is my playground around what can be done with Obsidian and the digital gardens. This possibly has nothing of interest for anyone who reads this. But for me, This matters a lot. I am learning as I work the system. For me, my [[digital garden setup]] is a good place to start.
 
+This space is where I plan to share my notes across all my projects or my thoughts on what I read or watch. Most of what I write here would hardly have any structured, these are thoughts as they arrive. ==So expect some broken links for things I am yet to explore or sentences that make no sense to you.== More than you, the words on this site is for my eyes.
+
 ### Link syntax
 
 To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
