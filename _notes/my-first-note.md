@@ -1,10 +1,10 @@
 ---
-title: Your first seed
+title: First seed in my digital garden
 ---
 
 ### Welcome!
 
-This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory. 
+This is my first note. I have set it up in my [`notes/`](https://github.com/am1t/sn-wiki/tree/master/_notes) directory. This note is my playground around what can be done with Obsidian and the digital gardens. This possibly has nothing of interest for anyone who reads this. But for me, This matters a lot. I am learning as I work the system. For me, my [[digital garden setup]] is a good place to start.
 
 ### Link syntax
 
@@ -20,8 +20,6 @@ You can organize notes in subdirectories and link them normally. For example, th
 So what if I want to link to [[consistency]]. Nice! It added it! 
 
 And what about [[move your body every day]]. Brilliant!
-
-Dashes and underscores in file names are supported, and may be omitted in the bracket link syntax. As an example, the `your-first-note.md` file can be linked to with [[your first note]] or [[your-first-note]], or even [[yOuR-FiRsT Note]].
 
 In all cases, if the double-bracket link does not point to a valid note, the double brackets will still be shown, like this: [[there is no note that matches this link]].
 
@@ -52,16 +50,6 @@ You may embed media files within a note using HTML5 media tags. Here's an exampl
   Your browser does not support the audio element.
 </audio>
 
-### Site configuration
-
-Some behavior is configurable by tweaking the `_config.yml` file.
-
-**`use_html_extension`**: if you use a static host that doesn't support URLs that don't end with `.html` (such as Neocities), try changing the `use_html_extension` value to `true` in the `_config.yml` file and restart the Jekyll server (or re-build the site). This adds a `.html` extension to note URLs and may resolve issues with links. If you're still having trouble, I recommend using Netlify to host your digital garden: it's free, easy to use, and fully supports this template's features out of the box.
-
-**`open_external_links_in_new_tab`**: when set to `true`, this makes external links open in new tabs. Set to `false` to open all links in the current tab.
-
-**`embed_tweets`**: when set to `true`, tweet URLs on their own lines will be replaced with a Twitter embed. Default value is `false`.
-
 ### Automatic bi-directional links
 
 Notice in the "Notes mentioning this note" section that there is another note linking to this note. This is a bi-directional link, and those are automatically created when you create links to other notes.
@@ -76,11 +64,13 @@ Links that have been previewed will be cached to avoid redundant requests.
 
 Finally, because you have the full power of Markdown in this template, you can use regular Markdown syntax for various formatting options.
 
-Lists work as expected:
+Lists work as expected, here's the unordered list.
 
 - List element A
 - List element B
 - List element C
+
+And now the ordered list. 
 
 1. List element
 2. List element
@@ -95,8 +85,6 @@ And of course, images look great:
 <img src="/assets/image.jpg"/>
 
 You can also ==highlight some content== by wrapping it with `==`.
-
-Non-latin languages are supported too: ==你好==, ==안녕하세요==, ==こんにちは==.
 
 ### Code syntax highlighting
 
@@ -121,8 +109,9 @@ $ cat /dev/urandom | grep "the answer to life" # shell scripts look nice too
 
 ### Next steps
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+Do I want to style this place? May be, I am not too sure. But I want to use this place for capturing my thoughts for sure. I will keep updating things in Obsidian and push them to the space.
 
-The easiest way to build your own digital garden based on this template is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
+[ ] Minimal styling improvement for  consistency
+[ ] Starting moving in content
 
-Go forth, have fun, and learn new something every day! ✌️
+Idea is to move, have fun, and learn new something every day! ✌️
