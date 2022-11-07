@@ -1,8 +1,5 @@
 ---
-layout: page
 title: Amit's Second Brain
-id: home
-permalink: /
 ---
 
 # Hi, I am Amit! 👋🏽

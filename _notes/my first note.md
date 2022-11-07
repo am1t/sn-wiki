@@ -1,29 +1,29 @@
 ---
-title: First seed in my digital garden
+title: my first note
 ---
 
-### Welcome!
+# My First Note!
 
-This is my first note. I have set it up in my [`notes/`](https://github.com/am1t/sn-wiki/tree/master/_notes) directory. This note is my playground around what can be done with Obsidian and the digital gardens. This possibly has nothing of interest for anyone who reads this. But for me, This matters a lot. I am learning as I work the system. For me, my [[digital garden setup]] is a good place to start.
+This is my first note. I have set it up in my [`notes/`](https://github.com/am1t/sn-digital-garden/tree/main/notes) directory. This note is my playground around what can be done with Obsidian and the digital gardens. This possibly has nothing of interest for anyone who reads this. But for me, This matters a lot. I am learning as I work the system. For me, my [[digital garden setup]] is a good place to start.
 
-This space is where I plan to share my notes across all my projects or my thoughts on what I read or watch. Most of what I write here would hardly have any structured, these are thoughts as they arrive. ==So expect some broken links for things I am yet to explore or sentences that make no sense to you.== More than you, the words on this site is for my eyes.
+This space is where I plan to share my notes across all my projects or my thoughts on what I read or watch. Most of what I write here would hardly have any structured, these are thoughts as they arrive. <mark>So expect some broken links for things I am yet to explore or sentences that make no sense to you.</mark> More than you, the words on this site is for my eyes.
 
 ### Link syntax
 
 To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
 
-- Using the note title: [[a note about cats]]
+- ~~Using the note title: [[a note about cats]]~~ Doesn't work with Gatsby
 - Using the note's filename: [[cats]]
-- Using the note's title, with a label: [[A note about cats|link to the note about cats using the note title]]
+- ~~Using the note's title, with a label: [[A note about cats|link to the note about cats using the note title]]~~ Doesn't work with Gatsby
 - Using the note's filename, with a label: [[cats|link to the note about cats using the note's filename]]
 
-You can organize notes in subdirectories and link them normally. For example, the links above all point to the `_notes/animals/cats.md` file. Here's another example: [[tigers]].
+You can organize notes in subdirectories and link them normally. For example, the links above all point to the `notes/animals/cats.md` file.
 
 So what if I want to link to [[consistency]]. Nice! It added it! 
 
 And what about [[move your body every day]]. Brilliant!
 
-In all cases, if the double-bracket link does not point to a valid note, the double brackets will still be shown, like this: [[there is no note that matches this link]].
+~~In all cases, if the double-bracket link does not point to a valid note, the double brackets will still be shown, like this: [[there is no note that matches this link]].~~ Doesn't work yet!
 
 Alternatively, you can use regular [Markdown syntax](https://www.markdownguide.org/getting-started/) for links, with a relative link to the other note, like this: [this is a Markdown link to the note about cats](/cats){: .internal-link}. Don't forget to use the `.internal-link` class to make sure the link is styled as an internal link (without the little arrow).
 
@@ -34,31 +34,13 @@ Of course, you can also link to external websites, like this: [this is a link to
 [^1]: This is a footnote. For more information about using footnotes, check out the [Markdown Guide](https://www.markdownguide.org/extended-syntax/#footnotes).
 [^2]: This is another footnote that links to the note about [[cats]]. You may also point to [[notes that do not exist]] if you wish.
 
-### Tweet embedding
-
-Note: This behavior is disabled by default for privacy reasons. See "Site configuration" section below to enable it.
-
-You may include a tweet URL on its own line (like below), and it would be replaced with an official Twitter embed if the site configuration demands it.
-
-https://twitter.com/jack/status/20
-
-### Media embedding
-
-You may embed media files within a note using HTML5 media tags. Here's an example for an audio file:
-
-"Jazzy Frenchy" by Benjamin Tissot from bensound.com
-<audio controls>
-  <source src="/assets/jazzyfrenchy.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
 ### Automatic bi-directional links
 
 Notice in the "Notes mentioning this note" section that there is another note linking to this note. This is a bi-directional link, and those are automatically created when you create links to other notes.
 
 ### Link previews
 
-If you're on a device with mouse support, try hovering your mouse on internal links to preview the notes: [[a note about cats]].
+If you're on a device with mouse support, try hovering your mouse on internal links to preview the notes: [[cats|notes about cat]].
 
 Links that have been previewed will be cached to avoid redundant requests.
 
@@ -72,21 +54,11 @@ Lists work as expected, here's the unordered list.
 - List element B
 - List element C
 
-And now the ordered list. 
-
-1. List element
-2. List element
-3. List element
-
-If you'd like to quote other people, consider using quote blocks:
+If you'd like to quote other people, consider using quote blocks. Quote blocks aren't styled yet. So idea how to style with Gatsby.
 
 > Lorem ipsum dolor sit amet
 
-And of course, images look great:
-
-<img src="/assets/image.jpg"/>
-
-You can also ==highlight some content== by wrapping it with `==`.
+You can also <mark>highlight some content</mark> by wrapping it with `<mark>`.
 
 ### Code syntax highlighting
 
@@ -96,13 +68,14 @@ You can add code blocks with full syntax color highlighting by wrapping code sni
 // Here's a bit of JavaScript:
 console.log('hello!')
 ```
+And now some Ruby.
 
 ```rb
-# And now some Ruby
 def foo(bar)
   "baz"
 end
 ```
+
 
 ```sh
 $ cat /dev/urandom | grep "the answer to life" # shell scripts look nice too
